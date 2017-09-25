@@ -1,3 +1,4 @@
+#defining the function
 def myFunction(input_value):
     input_value=input_value*2
     ret_val=0
@@ -5,7 +6,9 @@ def myFunction(input_value):
         ret_val=1
     return input_value,ret_val
 
+#the below is the calling program.
+#it includes the variable initialization phase (inp=20)
 inp=20
-transformed_input,oup=myFunction(inp)
-print(inp,transformed_input,oup)
+inp,oup=myFunction(inp)
+print(inp,oup)
 
